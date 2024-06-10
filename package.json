@@ -1,0 +1,25 @@
+{
+  "name": "aurora",
+  "version": "1.0.0",
+  "description": "Bu bot Discord AURORA sunucusu için Burak (Nexor) tarafından geliştirilen özel bir bottur. Botun amacı çok işlevselli olmasıdır.",
+  "main": "./src/bot.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [
+    "Discord Aurora",
+    "Aurora",
+    "Discord Bot",
+    "Discord"
+  ],
+  "author": "Burak Akat (Nexor)",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "moment-timezone": "^0.5.45",
+    "mongodb": "^6.6.0"
+  }
+}
